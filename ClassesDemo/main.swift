@@ -1,11 +1,9 @@
-//
-//  main.swift
-//  ClassesDemo
-//
-//  Created by William Downing on 1/26/21.
-//
+let monster = Enemy(health: 100, attackStrength: 10)
 
-import Foundation
+let dragon = Dragon(health: 100, attackStrength: 15 )
 
-print("Hello, World!")
-
+dragon.wingSpan = 5
+dragon.attackStrength = 15
+dragon.talk(speech: "I gotta be myself. I can't be no one else.")
+dragon.attack()
+dragon.move()
